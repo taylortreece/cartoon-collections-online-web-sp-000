@@ -17,6 +17,7 @@ while i < calls_long.length
   else
     return false
     end
+    i += 1
   end
 end
 
