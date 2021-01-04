@@ -21,6 +21,11 @@ while i < calls_long.length
   end
 end
 
-def find_the_cheese(cheese)
+def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  while i < cheese_types.length
+  if ingredients.include?(cheese_types[i])
+    return cheese_types[i]
+  else
+    return nil
 end
