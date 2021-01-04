@@ -28,4 +28,6 @@ def find_the_cheese(ingredients)
     return cheese_types[i]
   else
     return nil
+  end
+end
 end
