@@ -30,5 +30,6 @@ def find_the_cheese(ingredients)
   else
     return nil
   end
+  i += 1
 end
 end
