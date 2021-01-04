@@ -33,4 +33,3 @@ def find_the_cheese(ingredients)
   i += 1
  end
 end
-
