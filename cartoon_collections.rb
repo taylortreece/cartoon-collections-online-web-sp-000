@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(calls_long)
   i = 0
-  call_length = nil
+  call_length = " "
 while i < calls_long.length
 call_length << calls_long[i].length > 4 ? true : false
   i += 1
