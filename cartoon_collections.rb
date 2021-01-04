@@ -24,4 +24,5 @@ end
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types { |n| if ingredients.include?(n) ? n : nil }
+  end
 end
